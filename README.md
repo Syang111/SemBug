@@ -10,10 +10,10 @@ Requirements:
 * SQLite is an embedded database, which does not need extra setup and does not require connection parameters
 * Other databases like MySQL, which requires connection parameters and needs to create a database named test
 
-The following commands create a JAR, and start Sonar to test DBMS:
+The following commands create a JAR, and start SemBug to test DBMS:
 
 ```
-git clone https://github.com/Syang111/Sonar.git
+git clone https://github.com/Syang111/SemBug.git
 cd Sonar
 mvn package -DskipTests
 cd target
