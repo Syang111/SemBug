@@ -14,7 +14,7 @@ The following commands create a JAR, and start SemBug to test DBMS:
 
 ```
 git clone https://github.com/Syang111/SemBug.git
-cd Sonar
+cd src/Sonar
 mvn package -DskipTests
 cd target
 java -jar Sonar-*.jar --num-threads 4 sqlite3
